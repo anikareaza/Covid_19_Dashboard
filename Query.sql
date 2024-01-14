@@ -78,17 +78,6 @@ ORDER BY
 
 
 
-
-
-
-
-
-
-
-
-
-	
-
 -- Countries with Highest Infection Rate compared to Population
 SELECT 
     Location, 
