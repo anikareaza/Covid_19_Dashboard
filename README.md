@@ -13,19 +13,19 @@ This project analyzed over 150,000 COVID-19 case records across continents to ex
 
 
 # Overview of Findings
-- Mortality Disparities: North and South America combined contributed to over 62% of global deaths.
+- **Mortality Disparities:** North and South America combined contributed to over 62% of global deaths.
 
-- Continental Trends: North America’s death count was disproportionately higher than other regions.
+- **Continental Trends:** North America’s death count was disproportionately higher than other regions.
 
-- Country-Level Insights: Canada and the U.S. showed distinct spikes during specific phases of the pandemic.
+- **Country-Level Insights:** Canada and the U.S. showed distinct spikes during specific phases of the pandemic.
 
-- Public Health Visualization: Tableau dashboards enabled filtering by country and timeframe, promoting accessible health intelligence for policymakers and the public.
+- **Public Health Visualization:** Tableau dashboards enabled filtering by country and timeframe, promoting accessible health intelligence for policymakers and the public.
 
 # Key Discoveries & Methods
--  Data Collection & Cleaning (Python + Excel):
+- ** Data Collection & Cleaning (Python + Excel):**
 Used Python (pandas) to load and clean raw Excel datasets, handle missing values, unify inconsistent date/number formats, and extract relevant fields for analysis. This ensured a clean, analysis-ready dataset before importing to SQL.
 
--  Data Transformation (SQL):
+- ** Data Transformation (SQL):**
     -  Imported the cleaned dataset into MySQL and used SQL queries to calculate:
   
     -  Continent-wise case and death totals
@@ -35,7 +35,7 @@ Used Python (pandas) to load and clean raw Excel datasets, handle missing values
     -  Country-level population infection trends
 These aggregated values were then used as inputs for the Tableau visualizations.
 
--  Statistical Analysis: Identified critical insights such as:
+-  **Statistical Analysis:** Identified critical insights such as:
 
     -  North and South America accounted for 62% of global COVID-19 deaths.
   
@@ -43,22 +43,22 @@ These aggregated values were then used as inputs for the Tableau visualizations.
   
     -  Continent mortality and infection rates are visualized to reveal trends over time.
 
--  Time-Series Analysis: Tracked average percent population infected per country from 2020 to 2025 to show infection progression.
+-  **Time-Series Analysis:** Tracked average percent population infected per country from 2020 to 2025 to show infection progression.
 
--  Dashboard Development: Created an interactive Tableau dashboard with:
+-  **Dashboard Development:** Created an interactive Tableau dashboard with:
 
-  -  Global numbers summary
-
-  -  Deaths per continent
-
-  -  Interactive map (country-level infection rates)
-
-  -  Time-series charts for selected countries
+    -  Global numbers summary
+  
+    -  Deaths per continent
+  
+    -  Interactive map (country-level infection rates)
+  
+    -  Time-series forcasting for selected countries
 
 # Assumptions and Caveats
--  Missing Data: Some missing months (e.g., February) were filled using the mode to preserve continuity.
+-  **Missing Data: **Some missing months (e.g., February) were filled using the mode to preserve continuity.
 
--  Temporal Coverage: Dashboard focuses on 2020–2025 data, excluding future projections.
+- ** Temporal Coverage:** Dashboard focuses on 2020–2025 data, excluding future projections.
 
 
 ![Screen Shot 2024-01-08 at 1 41 10 PM](https://github.com/anikareaza/Covid_19_Dashboard/assets/101680746/a4ceadbb-d02f-45b9-ae08-de8844b601cc)
