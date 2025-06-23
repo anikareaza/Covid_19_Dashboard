@@ -22,10 +22,9 @@ This project analyzed over 150,000 COVID-19 case records across continents to ex
 - **Public Health Visualization:** Tableau dashboards enabled filtering by country and timeframe, promoting accessible health intelligence for policymakers and the public.
 
 # Key Discoveries & Methods
-- ** Data Collection & Cleaning (Python + Excel):**
-Used Python (pandas) to load and clean raw Excel datasets, handle missing values, unify inconsistent date/number formats, and extract relevant fields for analysis. This ensured a clean, analysis-ready dataset before importing to SQL.
+- **Data Collection & Cleaning (Python + Excel):** Used Python (pandas) to load and clean raw Excel datasets, handle missing values, unify inconsistent date/number formats, and extract relevant fields for analysis. This ensured a clean, analysis-ready dataset before importing to SQL.
 
-- ** Data Transformation (SQL):**
+- **Data Transformation (SQL)**:
     -  Imported the cleaned dataset into MySQL and used SQL queries to calculate:
   
     -  Continent-wise case and death totals
