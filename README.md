@@ -3,6 +3,7 @@ This end-to-end project explored global COVID-19 case and mortality data across 
 Created a COVID-19 Analysis Dashboard utilizing SQL for data management and Tableau for visualization.
 
 [Link to Interactive Dashboard](https://public.tableau.com/app/profile/anika.reza/viz/CovidDataAnalysis_16927800428170/Dashboard5)
+[Link to SQL queries](https://github.com/anikareaza/Covid_19_Dashboard/blob/main/Query.sql)
 
 # Tools Used
 -  MySQL
@@ -39,7 +40,7 @@ This project analyzed over 150,000 COVID-19 case records across continents to ex
   
   - Temporary Tables: Used temp tables to store intermediate results for complex calculations, such as vaccination percentages by date, supporting efficient dashboard performance.
 
-These aggregated insights were then visualized in Tableau to support public health reporting and decision-making. [Link to SQL queries](https://github.com/anikareaza/Covid_19_Dashboard/blob/main/Query.sql)
+These aggregated insights were then visualized in Tableau to support public health reporting and decision-making. 
 
 -  **Statistical Analysis:** Identified critical insights such as:
 
