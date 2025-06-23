@@ -25,15 +25,21 @@ This project analyzed over 150,000 COVID-19 case records across continents to ex
 # Key Discoveries & Methods
 - **Data Collection & Cleaning (Python + Excel):** Used Python (pandas) to load and clean raw Excel datasets, handle missing values, unify inconsistent date/number formats, and extract relevant fields for analysis. This ensured a clean, analysis-ready dataset before importing to SQL.
 
-- **Data Transformation (SQL)**:
-    -  Imported the cleaned dataset into MySQL and used SQL queries to calculate:
+- **Data Transformation (SQL)**: Imported the cleaned dataset into MySQL and used advanced SQL queries to transform and aggregate COVID-19 data for analysis and visualization. Key transformations included:
+
+  - Continent-wise Aggregation: Calculated total cases and total deaths per continent, identifying regions with the highest mortality burden.
   
-    -  Continent-wise case and death totals
+  - Global Metrics: Computed global totals and death percentages to measure worldwide pandemic impact.
   
-    -  Global infection and mortality percentages
+  - Country-Level Infection Rates: Determined the percentage of population infected per country using total_cases / population, highlighting countries with the highest exposure.
   
-    -  Country-level population infection trends
-These aggregated values were then used as inputs for the Tableau visualizations.
+  - Vaccination Tracking: Joined death and vaccination datasets to compute rolling totals of vaccinated individuals using window functions (SUM(...) OVER), then calculated the percentage of population vaccinated.
+  
+  - Time-Based Trends: Leveraged GROUP BY and CTEs to track infection progression and vaccination rollout over time at global and regional levels.
+  
+  - Temporary Tables: Used temp tables to store intermediate results for complex calculations, such as vaccination percentages by date, supporting efficient dashboard performance.
+
+These aggregated insights were then visualized in Tableau to support public health reporting and decision-making.
 
 -  **Statistical Analysis:** Identified critical insights such as:
 
