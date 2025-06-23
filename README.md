@@ -39,8 +39,7 @@ This project analyzed over 150,000 COVID-19 case records across continents to ex
   
   - Temporary Tables: Used temp tables to store intermediate results for complex calculations, such as vaccination percentages by date, supporting efficient dashboard performance.
 
-These aggregated insights were then visualized in Tableau to support public health reporting and decision-making. 
-[Link to SQL queries](https://public.tableau.com/app/profile/anika.reza/viz/CovidDataAnalysis_16927800428170/Dashboard5](https://github.com/anikareaza/Covid_19_Dashboard/blob/main/Query.sql)
+These aggregated insights were then visualized in Tableau to support public health reporting and decision-making. [Link to SQL queries](https://github.com/anikareaza/Covid_19_Dashboard/blob/main/Query.sql)
 
 -  **Statistical Analysis:** Identified critical insights such as:
 
