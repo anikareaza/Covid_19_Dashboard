@@ -1,6 +1,7 @@
 # Project Overview
 This end-to-end project explored global COVID-19 case and mortality data across continents using Python, SQL, and Tableau. The goal was to uncover disparities in infection rates, mortality patterns, and regional trends to support public health decision-making through interactive data visualizations.
 Created a COVID-19 Analysis Dashboard utilizing SQL for data management and Tableau for visualization.
+
 [Link to Interactive Dashboard](https://public.tableau.com/app/profile/anika.reza/viz/CovidDataAnalysis_16927800428170/Dashboard5)
 
 # Tools Used
