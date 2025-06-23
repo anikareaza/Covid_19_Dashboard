@@ -26,22 +26,22 @@ This project analyzed over 150,000 COVID-19 case records across continents to ex
 Used Python (pandas) to load and clean raw Excel datasets, handle missing values, unify inconsistent date/number formats, and extract relevant fields for analysis. This ensured a clean, analysis-ready dataset before importing to SQL.
 
 -  Data Transformation (SQL):
-  -  Imported the cleaned dataset into MySQL and used SQL queries to calculate:
-
-  -  Continent-wise case and death totals
-
-  -  Global infection and mortality percentages
-
-  -  Country-level population infection trends
+    -  Imported the cleaned dataset into MySQL and used SQL queries to calculate:
+  
+    -  Continent-wise case and death totals
+  
+    -  Global infection and mortality percentages
+  
+    -  Country-level population infection trends
 These aggregated values were then used as inputs for the Tableau visualizations.
 
 -  Statistical Analysis: Identified critical insights such as:
 
-  -  North and South America accounted for 62% of global COVID-19 deaths.
-
-  -  North America’s death count was ~50x higher than Oceania.
-
-  -  Continent mortality and infection rates are visualized to reveal trends over time.
+    -  North and South America accounted for 62% of global COVID-19 deaths.
+  
+    -  North America’s death count was ~50x higher than Oceania.
+  
+    -  Continent mortality and infection rates are visualized to reveal trends over time.
 
 -  Time-Series Analysis: Tracked average percent population infected per country from 2020 to 2025 to show infection progression.
 
