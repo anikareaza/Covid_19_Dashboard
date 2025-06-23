@@ -3,6 +3,7 @@ This end-to-end project explored global COVID-19 case and mortality data across 
 Created a COVID-19 Analysis Dashboard utilizing SQL for data management and Tableau for visualization.
 
 [Link to Interactive Dashboard](https://public.tableau.com/app/profile/anika.reza/viz/CovidDataAnalysis_16927800428170/Dashboard5)
+
 [Link to SQL queries](https://github.com/anikareaza/Covid_19_Dashboard/blob/main/Query.sql)
 
 # Tools Used
