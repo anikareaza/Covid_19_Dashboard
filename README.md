@@ -57,9 +57,9 @@ These aggregated values were then used as inputs for the Tableau visualizations.
     -  Time-series death forecasting for selected countries
 
 # Assumptions and Caveats
--  **Missing Data: **Some missing months (e.g., February) were filled using the mode to preserve continuity.
+-  **Missing Data**: Some missing months (e.g., February) were filled using the mode to preserve continuity.
 
-- ** Temporal Coverage:** Dashboard focuses on 2020–2025 data, excluding future projections.
+- **Temporal Coverage:** Dashboard focuses on 2020–2025 data, excluding future projections.
 
 
 ![Screen Shot 2024-01-08 at 1 41 10 PM](https://github.com/anikareaza/Covid_19_Dashboard/assets/101680746/a4ceadbb-d02f-45b9-ae08-de8844b601cc)
