@@ -15,21 +15,30 @@ This project analyzed over 150,000 COVID-19 case records across continents to ex
 - Public Health Visualization: Tableau dashboards enabled filtering by country and timeframe, promoting accessible health intelligence for policymakers and the public.
 
 # Key Discoveries & Methods
-- Data Cleaning & Transformation: Handled inconsistent date formats, null values, and non-standard symbols in revenue/case data using pandas and SQL.
+-Data Collection & Cleaning: Parsed and cleaned 150k+ rows of raw COVID-19 case data using Python and SQL, handling missing values, inconsistent formats, and outliers.
 
-- Time-Series Analysis: Tracked average percent population infected per country from 2020 to 2025.
+-Data Transformation: Calculated continent-level death percentages, total cases, and infection rates using SQL queries and DataFrame operations.
 
-- Statistical Analysis: Identified continent-level death ratios and visualized case growth curves across regions.
+-Statistical Analysis: Identified critical insights such as:
 
-- Dynamic Dashboards: Developed a Tableau dashboard featuring:
+  -North and South America accounted for 62% of global COVID-19 deaths.
 
-  - Global summary cards (cases, deaths, death %)
+  -North America’s death count was ~50x higher than Oceania.
 
-  - Heat maps for infection spread
+  -Continent mortality and infection rates are visualized to reveal trends over time.
 
-  - Line charts for country-level infection growth
+-Time-Series Analysis: Tracked average percent population infected per country from 2020 to 2025 to show infection progression.
 
-  -  Bar charts of deaths per continent and age group
+-Dashboard Development: Created an interactive Tableau dashboard with:
+
+  -Global numbers summary
+
+  -Deaths per continent
+
+  -Interactive map (country-level infection rates)
+
+  -Time-series charts for selected countries
+
 
 ![Screen Shot 2024-01-08 at 1 41 10 PM](https://github.com/anikareaza/Covid_19_Dashboard/assets/101680746/a4ceadbb-d02f-45b9-ae08-de8844b601cc)
 
