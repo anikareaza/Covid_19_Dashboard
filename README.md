@@ -13,7 +13,7 @@ Created a COVID-19 Analysis Dashboard utilizing SQL for data management and Tabl
 # Executive Summary
 This project analyzed over 150,000 COVID-19 case records across continents to explore infection and mortality patterns. Data was transformed using Python and SQL, and insights were visualized using a Tableau dashboard. The analysis revealed that North and South America accounted for 62% of global COVID-19 deaths, with mortality in North America nearly 50× higher than in Oceania. Key findings informed region-specific health responses and highlighted the value of dynamic, data-driven storytelling in public health.
 
-# # Overview of Findings
+# Overview of Findings
 - **Mortality Disparities:** North and South America combined contributed to over 62% of global deaths.
 
 - **Continental Trends:** North America’s death count was disproportionately higher than other regions.
