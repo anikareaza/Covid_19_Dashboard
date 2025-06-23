@@ -49,10 +49,12 @@ These aggregated values were then used as inputs for the Tableau visualizations.
     -  Global numbers summary
   
     -  Deaths per continent
+    
+    -  Average percentage of people infected per country
   
     -  Interactive map (country-level infection rates)
   
-    -  Time-series forcasting for selected countries
+    -  Time-series death forecasting for selected countries
 
 # Assumptions and Caveats
 -  **Missing Data: **Some missing months (e.g., February) were filled using the mode to preserve continuity.
